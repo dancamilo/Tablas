@@ -1,0 +1,26 @@
+/* Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 50;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid green;
+
+#parrafos{
+    background-color: #ccc;
+}    
+
+}
+
+.img{
+    border: 2px dotted #ff0000;
+    width: 33%;
+    height: 300px;
+    image-rendering: pixelated;
+
+    object-fit: scale-down; /* determinar como una imagen se ajusta dentro del contenedor*/
+    object-position: top; 
+}
