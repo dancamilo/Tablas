@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.seccion{
+    width: 100%;
+    height:auto;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+
+}
+.map{
+    width: 80%;
+    height: 450px;
+
+    border: 1px solid red;
+    
+
+}
