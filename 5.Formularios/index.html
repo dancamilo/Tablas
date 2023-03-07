@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+       <h1>Formulario de datos</h1>
+    </header>
+    <main>
+        <!--Post y get diferencia: el GET pasa los datos por URL y el post no tiene limite no pasa datos por URL los pasa por el cuerpo internamente-->
+        <!--Pattern se usa para patrones-->
+        <!--Siempre en fronetd se valida con el lenguaje que seda, dependiendo el que es use-->
+        <!--Todo input debe tener una etiqueta-->
+        <form>action=" method=" id="forml"></form>
+            <label>for="name">Nombre:</label> 
+             <input type="email" value="valor ejemple"" placeholder="introduzca el nombre
+              id="name" name="name" maxlength="15" minlength="2" required pattern="error en contenido
+              autocomplete="off" spellcheck="true""> 
+              <label> for="age">Edad:</label>
+              <input type="number" name="age" id="age" min="18" max="65">
+              <label> <for="email" name="email" id="email"></form></label>
+              <input> type="password" name="password" id="password">
+              <label for="color" name="color" id="color"></label>
+              <input for="myFile"></label>
+              <input type="file" name="myFile" id="myFile">
+              <hr>
+              <!-- Enlazado con un datalist-->
+              <input type="month" id="month" name="month">
+              <datalist>
+                 <option value="Enero"></option> <!-- NO hay necesidad de cerrarlo el datalist no se va aver-->
+                 <option value="Febrero"></option>
+                 <option value="Marzo"></option>
+                 <option value="Abril"></option>
+              </datalist>
+              <fieldset><legend> Estado Civil</legend>
+                
+                <input type="radio" name="Estado" id="estado" value="Soltero">soltero@
+                <input type="radio" name="Estado" id="estado" value="Casado">Casado@
+                <input type="radio" name="Estado" id="estado" value="Viuda">Viudo@
+                <input type="radio" name="Estado" id="estado" value="Divorciado">Divorciado@
+              </fieldset>
+              <br>
+              <hr>
+               <label for="lenguaje de programacion"</label>
+                <select name="lenguaje" id="lenguajes"></select>
+                  <optgroup label="backend">
+                    <option value="java">java</option>
+                    <option value="php">php</option>
+                  </optgroup>
+                  <optgroup
+                  <optgroup label="fronetd">
+                    <option value="js">java</option>
+                    <option value="tjs">php</option>
+                </select>
+                <label for="condiciones">¿acpeta los terminos y condiciones</label>
+                <input type="checkbox" name="condiciones" id="condiciones">
+                <hr>
+                <input type="button"> value="Boton 1">
+                <input type="submit" value="Enviar datos" id="formal">
+                <button type="submit" id="forma2">Enviar dara</button>
+
+              </datalist>
+        </form>
+    </main>
+    <script src="./script/main.js"></script>
+</body>
+</html>
